@@ -108,7 +108,7 @@ def find_closest_title(title):
     shows = list()
     heap = list()
 
-    shows.extend(_get_shows("RELEASING", year=now.year))
+    shows.extend(_get_shows("RELEASING"))
     shows.extend(_get_shows("NOT_YET_RELEASED", start_date=date_next_month))
     shows.extend(_get_shows("FINISHED", end_date=date_last_month))
 
