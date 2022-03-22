@@ -6,7 +6,7 @@ setup(
     author='Kyrielight',
     packages=['naomi'],
     install_requires=[
-        "ayumi @ git+git://github.com/shunjuu/Ayumi@master#egg=ayumi",
+        "ayumi @ git+https://github.com/shunjuu/Ayumi@master#egg=ayumi",
         'requests'
     ],
     version='0.2',
